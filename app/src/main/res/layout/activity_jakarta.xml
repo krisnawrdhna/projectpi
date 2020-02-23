@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".jakarta">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+<ImageView
+    android:layout_marginTop="20dp"
+    android:id="@+id/img_jakarta"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:src="@drawable/fjakarta"
+    android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/desc_jakarta"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_below="@id/img_jakarta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jakarta menawarkan beragam tujuan wisata untuk semua kalangan, mulai dari tempat wisata keluarga, budaya, edukasi,
+hingga kuliner. Di balik image ibukota negara yang sibuk dan padat dengan deretan gedung pencakar langit serta jalanannya
+yang macet. Jakarta nyatanya juga menyuguhkan pesona wisata tak kalah menarik untuk dikunjungi dan dijelajahi.
+"
+                android:textAlignment="textStart" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_below="@id/desc_jakarta">
+
+                <TextView
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="20dp"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1. Kota Tua"
+                    android:textAlignment="textStart" />
+
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Di sudut kota metropolitan Jakarta ada satu kawasan yang menyimpan nilai historis tinggi tetapi juga jadi tempat wisata
+hits, Kota Tua namanya. Banyaknya gedung-gedung tua bergaya kolonial yang masih kokoh berdiri memberikan nuansa seolah
+kembali ke masa lampau. Karenanya Tak heran jika hari libur atau akhir pekan tiba, kawasan ini selalu ramai dipadati
+pengunjung. Saat mengunjungi tempat wisata di Jakarta yang satu ini, ada banyak hal yang bisa Anda jelajahi. Ada Museum
+Fatahilah yang jadi saksi sejarah perjuangan bangsa untuk meraih kemerdekaan. Lalu ada Gedung Merah, Museum Wayang,
+Museum Bank Indonesia, Museum Bahari, Pelabuhan Sunda Kelapa hingga Stasiun Kereta Api Kota."
+                    android:textAlignment="textStart" />
+                
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@drawable/kotatua"
+                    android:foregroundGravity="center"/>
+
+                <TextView
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="20dp"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2. Museum Macan"
+                    android:textAlignment="textStart" />
+
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Saat mendengar namanya, mungkin Anda akan salah mengira, karena tempat wisata di Jakarta yang sedang hits ini justru
+menyimpan beragam karya seni yang memukau. Disingkat dari Museum of Modern and Contemporary Art in Nusantara, Museum MACAN
+ini merupakan destinasi yang cocok untuk pengagum karya seni baik modern maupun kontemporer. Setidaknya tak kurang dari
+90 karya seni baik karya seni dalam negeri dan internasional telah dipamerkan di museum ini. Karya yang dipamerkan pun
+tak hanya sebatas lukisan, tetapi juga karya kontemporer yang dikemas dalam beragam teknik, media dan seni instalasi yang
+menakjubkan. Tak heran jika destinasi ini kerap jadi ajang berswafoto para pengunjung. Karya seni yang paling diminati
+ialah karya milik Yayoi Kusama, seniman asal Jepang yang diberi judul ‘Infinity Mirrored Room’."
+                    android:textAlignment="textStart" />
+
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/img_shanghai_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@drawable/museummacan"
+                    android:foregroundGravity="center"/>
+
+                <TextView
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="20dp"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3. Pulau Bidadari"
+                    android:textAlignment="textStart" />
+
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pulau Bidadari adalah pulau kecil di Kepulauan Seribu yang terkenal sebagai area konservasi alam. Pulau ini merupakan
+salah satu pulau yang pernah dijadikan pos pengawas oleh militer Belanda. Penyuka wisata sejarah bisa mengunjungi
+reruntuhan benteng dan pos pengawas di pulau ini. Pengunjung bisa naik kapal dari Pantai Marina Ancol untuk mencapai tempat
+wisata di Jakarta yang satu ini. Jika masih bingung mau liburan kemana, baca juga Tempat wisata terbaik di indonesia untuk
+liburan."
+                    android:textAlignment="textStart" />
+
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="60dp"
+                    android:id="@+id/img_shanghaiii"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@drawable/pulaubidadari"
+                    android:foregroundGravity="center"/>
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnMapJakarta"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_width="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:text="MAPS"/>
+
+
+
+</RelativeLayout>

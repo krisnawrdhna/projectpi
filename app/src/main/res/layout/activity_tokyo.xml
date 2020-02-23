@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".marinabay">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:id="@+id/img_tokyo"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/ftokyo"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/desc_tokyo"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/img_tokyo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tokyo merupakan ibu kota negara Jepang yang sangat terkenal sekaligus menjadi daerah terpadat di Jepang. Tokyo menjadi
+pusat bisnis, politik, ekonomi, budaya, dan akademis di negara Jepang. Hal tersebut menjadikan keindahan kota metropolis
+dan kehidupan yang modern menjadi tempat wisata. Lalu apa saja yang bisa dilakukan selama berada di Tokyo?
+"
+                android:textAlignment="textStart"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_below="@id/desc_tokyo">
+
+                <TextView
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="20dp"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1. Shibuya Crossing"/>
+
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Jika Anda berkesempatan berkunjung ke Toyko, Jepang, singgahlah barang sebentar di kawasan Shibuya. Di sana, menyeberanglah
+di Shibuya Crossing, atau simpang lima Shibuya. Dijamin, Anda akan merasakan sensasi yang luar biasa. Bagaimana tidak, saat
+menyeberang, bisa jadi Anda akan berbarengan dengan 20 atau bahkan 30 ribu orang lainnya dari lima arah berbeda!
+Tak heran, banyak orang mengabadikan momen-momen saat menyeberang di Shibuya Crossing. Banyak dari mereka yang sengaja
+berhenti sejenak, kemudian mengambil gambar, memfoto, atau memvideokan dirinya yang tengah berada di lautan manusia, yang
+menyeberang berbarengan. Shibuya Crossing sudah lama dikenal sebagai tempat penyeberangan pejalan kaki paling sibuk di
+Jepang, bahkan di dunia. Total, per harinya, simpang lima yang berada di dekat Stasiun Shibuya ini diseberangi tak kurang
+dari 2 juta orang.
+"
+                    android:textAlignment="textStart"/>
+
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@mipmap/shanghai"
+                    android:foregroundGravity="center"/>
+
+                <TextView
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="20dp"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2. Harajuku"/>
+
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Harajuku adalah oase hijau dan daerah mode buat para kaum muda yang terletak antara dua lingkungan besar di Tokyo yaitu
+Shinjuku dan Shibuya. Harajuku termasuk daerah hijau yang masif buat para wisatawan pecinta shopping jalanan. Karena secara
+historis Harajuku merupakan kawasan yang murah untuk sewa buat para pebisnis muda mengembangkan bisnisnya sepanjang
+Shinjuku sampai dengan omotesando."
+                    android:textAlignment="textStart"/>
+
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@mipmap/shanghai"
+                    android:foregroundGravity="center"/>
+
+                <TextView
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="20dp"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3. Kuil Sensoji"/>
+
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sensoji Temple merupakan salah satu kuil tertua di Jepang. Terletak di Asakusa Tokyo Jepang. Kuil yang didirikan sejak
+abad ke-6 ini kerap juga disebut sebagai Kuil Kannon Asakusa. Berdiri di tengah-tengah bangunan pencakar langit Tokyo.
+Kuil ini menjadi wisata sejarah yang lestari hingga sekarang. Disini kita bisa menikmati suasana tradisional Jepang di
+tengah modernisasi Tokyo yang keren. Salah satu yang paling menarik di sini adalah keberadaan lampion raksasa yang
+menyambut kita di pintu masuk kuil. Lampion raksasa ini dikenal sebagai simbol Asakusa Temple. Ketika berkunjung ke sini,
+jangan lupa berfoto di depan lampion raksasa dengan pose sekeren mungkin."
+                    android:textAlignment="textStart"/>
+
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@mipmap/shanghai"
+                    android:foregroundGravity="center"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+    <Button
+        android:layout_alignParentBottom="true"
+        android:layout_width="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:text="MAPS"/>
+
+
+
+</RelativeLayout>

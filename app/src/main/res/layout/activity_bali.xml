@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bali">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:id="@+id/imgbali"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/fbali"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/desc_bali"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_below="@id/imgbali"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Siapa yang tidak mengenal Pulau Bali? Destinasi wisata ini menjadi kebanggan dari Indonesia karena cukup populer dengan
+keindahan di dalamnya yang cukup mempesona yang membuatnya banyak dikunjungi, baik wisatawan domestic hingga wisatawan
+asing. Bali menawarkan berbagai tempat dan kegiatan menarik, dari hamparan pantai berpasir putih hingga hiburan malam yang
+seru. Tak heran, Pulau Dewata telah menjadi salah satu destinasi pantai terpopuler di dunia selama puluhan tahun. Berikut
+ini adalah tempat wisata di Bali yang bisa anda kunjungi:"
+                android:textAlignment="textStart"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_below="@id/desc_bali">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:text="1. Pantai Kuta"
+                android:textAlignment="textStart"/>
+
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Siapa yang tidak mengenal Pantai Kuta? Wisata pantai ini rasanya menjadi salah satu ikon wisata Pulau Dewata. Pesona dan
+keeksotisan di Pantai Kuta benar-benar tak bisa diragukan lagi. Sehingga tak heran jika setiap harinya pantai Kuta
+dipenuhi dengan wisatawan lokal maupun asing.Karena itu lah jika anda ingin mengunjungi pantai Kuta, maka anda bisa
+mencoba menggunakan sepeda motor atau berjalan kaki dari spot-spot tertentu karena memang kawasan ini cukup ramai. Ada
+banyak aktivitas menarik yang bisa anda lakukan selama berada di Pantai Kuta, mulai dari berjemur, bermain sepak bola
+pantai atau voli, berselancar, berjemur, dan masih banyak lainnya. pantai Kuta terbuka untuk umum dan pengunjung sama
+sekali tidak dikenakan tiket masuk."
+                    android:textAlignment="textStart" />
+
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@drawable/pantaikuta"
+                    android:foregroundGravity="center"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="20dp"
+                    android:textStyle="bold"
+                    android:text="2. Garuda Wisnu Kencana (GWK)"
+                    android:textAlignment="textStart"/>
+
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Garuda wisnu kencana atau GWK merupakan salah satu taman wisata budaya yang berada di Bali Selatan. Wisata ini memang cukup
+populer, terlebih saat ini pembangunan patung raksasai Garuda Wisnu Kencana sudah berhasil diselesaikan. Anda bisa
+menikmati kemegahan patung karya I Nyoman Nuarta yang juga ditemani dengan keindahan bukit-bukit kapur di sekitarnya. Dan
+tak hanya itu saja, di GWK terdapat teater seni yang dimana anda bisa melihat berbagai jenis kesenian dan tarian bali
+setiap harinya."
+                    android:textAlignment="textStart" />
+
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@drawable/garudawisnukencana"
+                    android:foregroundGravity="center"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="20dp"
+                    android:textStyle="bold"
+                    android:text="3. Danau Beratan"
+                    android:textAlignment="textStart"/>
+
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Danau Beratan, atau yang dikenal sebagai Danau Bratan merupakan wisata danau yang berada di kawasan Bedugul, Desa
+Candikuning, Kec. Baturiti, Tabanan, Bali. Karena berada di ketinggian 1.240 mdpl, tak heran jika suhu udara yang ada di
+sekitar danau sangat sejuk dan segar. Danau terluas kedua di bali ini memiliki fungsi utama sebagai sumber irigasi di
+daerah-daerah yang terletak di bagian tengah Bali. Meskipun begitu, pemandangan alam yang ada di sekitar danau sangat
+menakjubkan yang membuatnya menjadi 20 danau terbaik dan terindah yang ada di dunia. Salah satu daya tarik yang ada di
+Danau ini adalah adanya Pura Ulun Danau Berayan yang ada di bagian ujung Danau. Keeoksotisan danau dengan adanya Pura
+Ulun ini menjadi pesona tersendiri yang tak boleh terlewatkan."
+                    android:textAlignment="textStart" />
+
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="60dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@drawable/danauberatan"
+                    android:foregroundGravity="center"/>
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+    <Button
+        android:id="@+id/btnmapbali"
+        android:layout_alignParentBottom="true"
+        android:layout_width="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:text="MAPS"/>
+
+
+
+</RelativeLayout>

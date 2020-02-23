@@ -1,0 +1,220 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.projectpi"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="22"
+8-->C:\Users\one\AndroidStudioProjects\projectpi\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\one\AndroidStudioProjects\projectpi\app\src\main\AndroidManifest.xml
+10    <!--
+11         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+12         Google Maps Android API v2, but you must specify either coarse or fine
+13         location permissions for the 'MyLocation' functionality.
+14    -->
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->C:\Users\one\AndroidStudioProjects\projectpi\app\src\main\AndroidManifest.xml:9:5-79
+15-->C:\Users\one\AndroidStudioProjects\projectpi\app\src\main\AndroidManifest.xml:9:22-76
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->C:\Users\one\AndroidStudioProjects\projectpi\app\src\main\AndroidManifest.xml:10:5-67
+16-->C:\Users\one\AndroidStudioProjects\projectpi\app\src\main\AndroidManifest.xml:10:22-64
+17
+18    <!-- Include required permissions for Google Maps API to run. -->
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\one\.gradle\caches\transforms-2\files-2.1\a8b7ee5f247f646d994905e18a154113\play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
+19-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\one\.gradle\caches\transforms-2\files-2.1\a8b7ee5f247f646d994905e18a154113\play-services-maps-17.0.0\AndroidManifest.xml:23:22-76
+20
+21    <uses-feature
+21-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\one\.gradle\caches\transforms-2\files-2.1\a8b7ee5f247f646d994905e18a154113\play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+22        android:glEsVersion="0x00020000"
+22-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\one\.gradle\caches\transforms-2\files-2.1\a8b7ee5f247f646d994905e18a154113\play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+23        android:required="true" />
+23-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\one\.gradle\caches\transforms-2\files-2.1\a8b7ee5f247f646d994905e18a154113\play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+24
+25    <application
+25-->C:\Users\one\AndroidStudioProjects\projectpi\app\src\main\AndroidManifest.xml:12:5-63:19
+26        android:allowBackup="true"
+26-->C:\Users\one\AndroidStudioProjects\projectpi\app\src\main\AndroidManifest.xml:13:9-35
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.1.0] C:\Users\one\.gradle\caches\transforms-2\files-2.1\2111d963c95cc6e94705fb367f0a0943\core-1.1.0\AndroidManifest.xml:24:18-86
+28        android:debuggable="true"
+29        android:icon="@mipmap/ic_launcher"
+29-->C:\Users\one\AndroidStudioProjects\projectpi\app\src\main\AndroidManifest.xml:14:9-43
+30        android:label="@string/app_name"
+30-->C:\Users\one\AndroidStudioProjects\projectpi\app\src\main\AndroidManifest.xml:15:9-41
+31        android:roundIcon="@mipmap/ic_launcher_round"
+31-->C:\Users\one\AndroidStudioProjects\projectpi\app\src\main\AndroidManifest.xml:16:9-54
+32        android:supportsRtl="true"
+32-->C:\Users\one\AndroidStudioProjects\projectpi\app\src\main\AndroidManifest.xml:17:9-35
+33        android:testOnly="true"
+34        android:theme="@style/Theme.AppCompat.NoActionBar" >
+34-->C:\Users\one\AndroidStudioProjects\projectpi\app\src\main\AndroidManifest.xml:18:9-59
+35        <activity android:name="com.example.projectpi.splash_screen" >
+35-->C:\Users\one\AndroidStudioProjects\projectpi\app\src\main\AndroidManifest.xml:19:9-25:20
+35-->C:\Users\one\AndroidStudioProjects\projectpi\app\src\main\AndroidManifest.xml:19:19-48
+36            <intent-filter>
+36-->C:\Users\one\AndroidStudioProjects\projectpi\app\src\main\AndroidManifest.xml:20:13-24:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->C:\Users\one\AndroidStudioProjects\projectpi\app\src\main\AndroidManifest.xml:21:17-69
+37-->C:\Users\one\AndroidStudioProjects\projectpi\app\src\main\AndroidManifest.xml:21:25-66
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->C:\Users\one\AndroidStudioProjects\projectpi\app\src\main\AndroidManifest.xml:23:17-77
+39-->C:\Users\one\AndroidStudioProjects\projectpi\app\src\main\AndroidManifest.xml:23:27-74
+40            </intent-filter>
+41        </activity>
+42        <activity android:name="com.example.projectpi.kuala2" />
+42-->C:\Users\one\AndroidStudioProjects\projectpi\app\src\main\AndroidManifest.xml:26:9-44
+42-->C:\Users\one\AndroidStudioProjects\projectpi\app\src\main\AndroidManifest.xml:26:19-41
+43        <activity android:name="com.example.projectpi.mapbali" />
+43-->C:\Users\one\AndroidStudioProjects\projectpi\app\src\main\AndroidManifest.xml:27:9-45
+43-->C:\Users\one\AndroidStudioProjects\projectpi\app\src\main\AndroidManifest.xml:27:19-42
+44        <activity android:name="com.example.projectpi.jeju" />
+44-->C:\Users\one\AndroidStudioProjects\projectpi\app\src\main\AndroidManifest.xml:28:9-42
+44-->C:\Users\one\AndroidStudioProjects\projectpi\app\src\main\AndroidManifest.xml:28:19-39
+45        <activity android:name="com.example.projectpi.seoul" />
+45-->C:\Users\one\AndroidStudioProjects\projectpi\app\src\main\AndroidManifest.xml:29:9-43
+45-->C:\Users\one\AndroidStudioProjects\projectpi\app\src\main\AndroidManifest.xml:29:19-40
+46        <activity android:name="com.example.projectpi.shanghai" />
+46-->C:\Users\one\AndroidStudioProjects\projectpi\app\src\main\AndroidManifest.xml:30:9-46
+46-->C:\Users\one\AndroidStudioProjects\projectpi\app\src\main\AndroidManifest.xml:30:19-43
+47        <activity android:name="com.example.projectpi.beijing" />
+47-->C:\Users\one\AndroidStudioProjects\projectpi\app\src\main\AndroidManifest.xml:31:9-45
+47-->C:\Users\one\AndroidStudioProjects\projectpi\app\src\main\AndroidManifest.xml:31:19-42
+48        <activity android:name="com.example.projectpi.osaka" />
+48-->C:\Users\one\AndroidStudioProjects\projectpi\app\src\main\AndroidManifest.xml:32:9-43
+48-->C:\Users\one\AndroidStudioProjects\projectpi\app\src\main\AndroidManifest.xml:32:19-40
+49        <activity android:name="com.example.projectpi.tokyo" />
+49-->C:\Users\one\AndroidStudioProjects\projectpi\app\src\main\AndroidManifest.xml:33:9-43
+49-->C:\Users\one\AndroidStudioProjects\projectpi\app\src\main\AndroidManifest.xml:33:19-40
+50        <activity android:name="com.example.projectpi.genting" />
+50-->C:\Users\one\AndroidStudioProjects\projectpi\app\src\main\AndroidManifest.xml:34:9-45
+50-->C:\Users\one\AndroidStudioProjects\projectpi\app\src\main\AndroidManifest.xml:34:19-42
+51        <activity android:name="com.example.projectpi.Tujuan.gardenby" />
+51-->C:\Users\one\AndroidStudioProjects\projectpi\app\src\main\AndroidManifest.xml:35:9-53
+51-->C:\Users\one\AndroidStudioProjects\projectpi\app\src\main\AndroidManifest.xml:35:19-50
+52        <!--
+53             The API key for Google Maps-based APIs is defined as a string resource.
+54             (See the file "res/values/google_maps_api.xml").
+55             Note that the API key is linked to the encryption key used to sign the APK.
+56             You need a different API key for each encryption key, including the release key that is used to
+57             sign the APK for publishing.
+58             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+59        -->
+60        <meta-data
+60-->C:\Users\one\AndroidStudioProjects\projectpi\app\src\main\AndroidManifest.xml:44:9-46:55
+61            android:name="com.google.android.geo.API_KEY"
+61-->C:\Users\one\AndroidStudioProjects\projectpi\app\src\main\AndroidManifest.xml:45:13-58
+62            android:value="@string/google_maps_key" />
+62-->C:\Users\one\AndroidStudioProjects\projectpi\app\src\main\AndroidManifest.xml:46:13-52
+63
+64        <activity
+64-->C:\Users\one\AndroidStudioProjects\projectpi\app\src\main\AndroidManifest.xml:48:9-50:59
+65            android:name="com.example.projectpi.MapsActivity"
+65-->C:\Users\one\AndroidStudioProjects\projectpi\app\src\main\AndroidManifest.xml:49:13-41
+66            android:label="@string/title_activity_maps" />
+66-->C:\Users\one\AndroidStudioProjects\projectpi\app\src\main\AndroidManifest.xml:50:13-56
+67        <activity android:name="com.example.projectpi.mapjakarta" />
+67-->C:\Users\one\AndroidStudioProjects\projectpi\app\src\main\AndroidManifest.xml:51:9-48
+67-->C:\Users\one\AndroidStudioProjects\projectpi\app\src\main\AndroidManifest.xml:51:19-45
+68        <activity android:name="com.example.projectpi.bali" />
+68-->C:\Users\one\AndroidStudioProjects\projectpi\app\src\main\AndroidManifest.xml:52:9-42
+68-->C:\Users\one\AndroidStudioProjects\projectpi\app\src\main\AndroidManifest.xml:52:19-39
+69        <activity android:name="com.example.projectpi.gardenby" />
+69-->C:\Users\one\AndroidStudioProjects\projectpi\app\src\main\AndroidManifest.xml:53:9-46
+69-->C:\Users\one\AndroidStudioProjects\projectpi\app\src\main\AndroidManifest.xml:53:19-43
+70        <activity android:name="com.example.projectpi.marinabay" />
+70-->C:\Users\one\AndroidStudioProjects\projectpi\app\src\main\AndroidManifest.xml:54:9-47
+70-->C:\Users\one\AndroidStudioProjects\projectpi\app\src\main\AndroidManifest.xml:54:19-44
+71        <activity android:name="com.example.projectpi.jakarta" />
+71-->C:\Users\one\AndroidStudioProjects\projectpi\app\src\main\AndroidManifest.xml:55:9-45
+71-->C:\Users\one\AndroidStudioProjects\projectpi\app\src\main\AndroidManifest.xml:55:19-42
+72        <activity android:name="com.example.projectpi.indonesia" />
+72-->C:\Users\one\AndroidStudioProjects\projectpi\app\src\main\AndroidManifest.xml:56:9-47
+72-->C:\Users\one\AndroidStudioProjects\projectpi\app\src\main\AndroidManifest.xml:56:19-44
+73        <activity android:name="com.example.projectpi.Tujuan.korea" />
+73-->C:\Users\one\AndroidStudioProjects\projectpi\app\src\main\AndroidManifest.xml:57:9-50
+73-->C:\Users\one\AndroidStudioProjects\projectpi\app\src\main\AndroidManifest.xml:57:19-47
+74        <activity android:name="com.example.projectpi.Tujuan.jepang" />
+74-->C:\Users\one\AndroidStudioProjects\projectpi\app\src\main\AndroidManifest.xml:58:9-51
+74-->C:\Users\one\AndroidStudioProjects\projectpi\app\src\main\AndroidManifest.xml:58:19-48
+75        <activity android:name="com.example.projectpi.Tujuan.cina" />
+75-->C:\Users\one\AndroidStudioProjects\projectpi\app\src\main\AndroidManifest.xml:59:9-49
+75-->C:\Users\one\AndroidStudioProjects\projectpi\app\src\main\AndroidManifest.xml:59:19-46
+76        <activity android:name="com.example.projectpi.Tujuan.malaysia" />
+76-->C:\Users\one\AndroidStudioProjects\projectpi\app\src\main\AndroidManifest.xml:60:9-53
+76-->C:\Users\one\AndroidStudioProjects\projectpi\app\src\main\AndroidManifest.xml:60:19-50
+77        <activity android:name="com.example.projectpi.Tujuan.singapur" />
+77-->C:\Users\one\AndroidStudioProjects\projectpi\app\src\main\AndroidManifest.xml:61:9-53
+77-->C:\Users\one\AndroidStudioProjects\projectpi\app\src\main\AndroidManifest.xml:61:19-50
+78        <activity android:name="com.example.projectpi.MainActivity" />
+78-->C:\Users\one\AndroidStudioProjects\projectpi\app\src\main\AndroidManifest.xml:62:9-59
+78-->C:\Users\one\AndroidStudioProjects\projectpi\app\src\main\AndroidManifest.xml:62:19-47
+79        <!-- Needs to be explicitly declared on P+ -->
+80        <uses-library
+80-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\one\.gradle\caches\transforms-2\files-2.1\a8b7ee5f247f646d994905e18a154113\play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+81            android:name="org.apache.http.legacy"
+81-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\one\.gradle\caches\transforms-2\files-2.1\a8b7ee5f247f646d994905e18a154113\play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+82            android:required="false" />
+82-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\one\.gradle\caches\transforms-2\files-2.1\a8b7ee5f247f646d994905e18a154113\play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+83
+84        <activity
+84-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\one\.gradle\caches\transforms-2\files-2.1\bf68d38fff96de2ed33819ec789d82f5\jetified-firebase-auth-16.0.5\AndroidManifest.xml:24:9-31:50
+85            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+85-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\one\.gradle\caches\transforms-2\files-2.1\bf68d38fff96de2ed33819ec789d82f5\jetified-firebase-auth-16.0.5\AndroidManifest.xml:25:13-85
+86            android:excludeFromRecents="true"
+86-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\one\.gradle\caches\transforms-2\files-2.1\bf68d38fff96de2ed33819ec789d82f5\jetified-firebase-auth-16.0.5\AndroidManifest.xml:26:13-46
+87            android:exported="true"
+87-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\one\.gradle\caches\transforms-2\files-2.1\bf68d38fff96de2ed33819ec789d82f5\jetified-firebase-auth-16.0.5\AndroidManifest.xml:27:13-36
+88            android:launchMode="singleTask"
+88-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\one\.gradle\caches\transforms-2\files-2.1\bf68d38fff96de2ed33819ec789d82f5\jetified-firebase-auth-16.0.5\AndroidManifest.xml:28:13-44
+89            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+89-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\one\.gradle\caches\transforms-2\files-2.1\bf68d38fff96de2ed33819ec789d82f5\jetified-firebase-auth-16.0.5\AndroidManifest.xml:29:13-102
+90            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+90-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\one\.gradle\caches\transforms-2\files-2.1\bf68d38fff96de2ed33819ec789d82f5\jetified-firebase-auth-16.0.5\AndroidManifest.xml:30:13-72
+91
+92        <service
+92-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\one\.gradle\caches\transforms-2\files-2.1\bf68d38fff96de2ed33819ec789d82f5\jetified-firebase-auth-16.0.5\AndroidManifest.xml:33:9-39:19
+93            android:name="com.google.firebase.components.ComponentDiscoveryService"
+93-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\one\.gradle\caches\transforms-2\files-2.1\bf68d38fff96de2ed33819ec789d82f5\jetified-firebase-auth-16.0.5\AndroidManifest.xml:34:13-84
+94            android:exported="false" >
+94-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\one\.gradle\caches\transforms-2\files-2.1\bf68d38fff96de2ed33819ec789d82f5\jetified-firebase-auth-16.0.5\AndroidManifest.xml:35:13-37
+95            <meta-data
+95-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\one\.gradle\caches\transforms-2\files-2.1\bf68d38fff96de2ed33819ec789d82f5\jetified-firebase-auth-16.0.5\AndroidManifest.xml:36:13-38:85
+96                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+96-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\one\.gradle\caches\transforms-2\files-2.1\bf68d38fff96de2ed33819ec789d82f5\jetified-firebase-auth-16.0.5\AndroidManifest.xml:37:17-109
+97                android:value="com.google.firebase.components.ComponentRegistrar" />
+97-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\one\.gradle\caches\transforms-2\files-2.1\bf68d38fff96de2ed33819ec789d82f5\jetified-firebase-auth-16.0.5\AndroidManifest.xml:38:17-82
+98        </service>
+99
+100        <activity
+100-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\one\.gradle\caches\transforms-2\files-2.1\64aa804a65a9e3423a6cc11b33d51f06\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+101            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+101-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\one\.gradle\caches\transforms-2\files-2.1\64aa804a65a9e3423a6cc11b33d51f06\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+102            android:exported="false"
+102-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\one\.gradle\caches\transforms-2\files-2.1\64aa804a65a9e3423a6cc11b33d51f06\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+103            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+103-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\one\.gradle\caches\transforms-2\files-2.1\64aa804a65a9e3423a6cc11b33d51f06\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+104
+105        <provider
+105-->[com.google.firebase:firebase-common:16.0.3] C:\Users\one\.gradle\caches\transforms-2\files-2.1\a9d64609fb5e3d5397331e854ac0e494\jetified-firebase-common-16.0.3\AndroidManifest.xml:10:9-14:39
+106            android:name="com.google.firebase.provider.FirebaseInitProvider"
+106-->[com.google.firebase:firebase-common:16.0.3] C:\Users\one\.gradle\caches\transforms-2\files-2.1\a9d64609fb5e3d5397331e854ac0e494\jetified-firebase-common-16.0.3\AndroidManifest.xml:11:13-77
+107            android:authorities="com.example.projectpi.firebaseinitprovider"
+107-->[com.google.firebase:firebase-common:16.0.3] C:\Users\one\.gradle\caches\transforms-2\files-2.1\a9d64609fb5e3d5397331e854ac0e494\jetified-firebase-common-16.0.3\AndroidManifest.xml:12:13-72
+108            android:exported="false"
+108-->[com.google.firebase:firebase-common:16.0.3] C:\Users\one\.gradle\caches\transforms-2\files-2.1\a9d64609fb5e3d5397331e854ac0e494\jetified-firebase-common-16.0.3\AndroidManifest.xml:13:13-37
+109            android:initOrder="100" />
+109-->[com.google.firebase:firebase-common:16.0.3] C:\Users\one\.gradle\caches\transforms-2\files-2.1\a9d64609fb5e3d5397331e854ac0e494\jetified-firebase-common-16.0.3\AndroidManifest.xml:14:13-36
+110
+111        <meta-data
+111-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\one\.gradle\caches\transforms-2\files-2.1\b87d17d15eb06149cc51e427b330f3c8\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+112            android:name="com.google.android.gms.version"
+112-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\one\.gradle\caches\transforms-2\files-2.1\b87d17d15eb06149cc51e427b330f3c8\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+113            android:value="@integer/google_play_services_version" />
+113-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\one\.gradle\caches\transforms-2\files-2.1\b87d17d15eb06149cc51e427b330f3c8\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+114    </application>
+115
+116</manifest>

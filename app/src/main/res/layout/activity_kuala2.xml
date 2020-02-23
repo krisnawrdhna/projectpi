@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".kuala2">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:id="@+id/img_jeju"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/fkualalumpur"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/desc_shanghai"
+                android:layout_margin="20dp"
+                android:layout_below="@id/img_jeju"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Liburan ke Kuala Lumpur terasa kurang lengkap tanpa mengunjungi Menara Kembar Petronas (KLCC/Kuala Lumpur City Central). Di sini, kamu bisa berfoto dengan latar
+menara kebanggaan warga lokal itu. Setelah puas dengan hasil foto, coba nikmati pemandangan Kuala Lumpur dari Sky Bridge (jembatan penghubung kedua menara) di
+lantai 41 dan observatory deck di lantai 86 dengan membayar tiket masuk sebesar RM84.80 (dewasa) dan RM32 (anak-anak). \n Bila kamu liburan bersama si kecil, pastikan pula mengunjungi Petrosains di lantai 4. Petrosains merupakan tempat belajar tentang sains dan teknologi dengan cara
+yang menyenangkan untuk anak-anak. Kamu perlu membayar tiket masuk sebesar RM30 (dewasa) dan RM18 (anak-anak).
+"
+                android:textAlignment="textStart" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_below="@id/desc_shanghai">
+
+                <TextView
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="20dp"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1. Batu Caves"
+                    android:textAlignment="textStart" />
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bagi yang belum tahu, Batu Caves merupakan tempat ibadah umat Hindu Tamil yang terletak di dalam gua bukit batu kapur kawasan Gombak, Selangor. Yang membuat
+tempat ini menarik adalah hiasan patung Dewa Murugan tertinggi di dunia (42,7 meter) yang berlapis emas. Ada juga Temple Cave yang merupakan gua utama yang bisa
+dicapai dengan menaiki 272 anak tangga."
+                    android:textAlignment="textStart" />
+
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@mipmap/shanghai"
+                    android:foregroundGravity="center"/>
+
+                <TextView
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="20dp"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2. Dataran Merdeka"
+                    android:textAlignment="textStart" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:text="Bagi yang ingin berwisata sejarah, Dataran Merdeka adalah destinasi yang tepat. Lapangan ini cukup bersejarah bagi warga setempat karena menjadi saksi bisu
+pengibaran bendera Federasi Malaysia untuk pertama kali, sekaligus tanda lepasnya Malaysia dari jajahan Inggris pada 31 Agustus 1957. Pasca kejadian itu,
+Dataran Merdeka menjadi tempat memperingati Hari Kemerdekaan Malaysia.
+Hanya melihat lapangan mungkin terasa membosankan. Tapi, di kawasan ini terdapat banyak objek wisata yang bisa dinikmati gratis. Di antaranya adalah Masjid Jamek,
+Katedral St. Mary the Virgin, Museum Musik, hingga tulisan “I Love KL” yang menjadi spot berfoto wisatawan." />
+
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@id/desc_shanghai"
+                    android:id="@+id/img_shanghai_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@mipmap/shanghai"
+                    android:foregroundGravity="center"/>
+                <TextView
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="20dp"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3. Gedung Sultan Abdul Samad"
+                    android:textAlignment="textStart" />
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tepat di depan Dataran Merdeka, kamu bisa melihat bangunan tua bergaya Maroko. Gedung Sultan Abdul Samad memiliki ciri khas kubah dari tembaga dan dinding bata
+mata. Selain itu, ada pula menara jam di bagian tengah gedung, sehingga membuat bangunan ini disebut Big Ben-nyan Malaysia. Arsitekturnya yang unik membuat gedung ini menjadi objek fotografi di kalangan turis. Kamu bisa berfoto di depan gedung, sambil mengagumi pesona Gedung Sultan
+Abdul Samad yang menawan."
+                    android:textAlignment="textStart" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@mipmap/shanghai"
+                    android:foregroundGravity="center"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+    <Button
+        android:layout_alignParentBottom="true"
+        android:layout_width="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:text="MAPS"/>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".marinabay">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:id="@+id/img_marinabay"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/fmarinabay"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/desc_marinabay"
+                android:layout_margin="20dp"
+                android:layout_below="@id/img_marinabay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adakah tempat wisata di Marina Bay Singapore? Well, sebelum kita masuk dan membahas lebih dalam tentang tempat wisata yang
+ada di Marina Bay, kita akan membahas singkat teluk ini. Marina Bay atau biasa juga disebut Teluk Marina, terletak di
+sebelah selatan Singapura, tepatnya dekat dengan Downtown Core. Teluk ini merupakan hasil dari reklamasi yang dilakukan
+pada tahun 1970. Kegiatan ini dilakukan guna membangun sebuah lokasi strategis yang akan menyedot banyak turis ke
+Singapura. Lalu apa sajakah tempat wisata di Marina Bay?"
+                android:textAlignment="textStart"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_below="@id/desc_marinabay">
+
+            <TextView
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Merlion Park"/>
+
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tempat wisata terdekat dengan Marina Bay yang wajib Anda unjungi adalah Merlion Park. Tempat ini merupakan taman kota yang
+bisa Anda akses kapanpun Anda mau! Ada sebuah patung singa dengan badan ikan, yang seolah menyambut para wisatawan yang
+berkunjung ke Singapura. Wajib hukumnya bagi Anda yang berlibur ke negara ini, untuk berfoto dengan latar belakang patung
+merlion. Selain bisa Anda kunjungi kapan saja, Merlion Park juga tidak akan memungut biaya seperser pun bagi pengunjungnya.
+"
+                    android:textAlignment="textStart"/>
+
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@mipmap/shanghai"
+                    android:foregroundGravity="center"/>
+
+                <TextView
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="20dp"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2. Marina Bay Sands"/>
+
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Magnet wisata di Teluk Marina adalah sebuah resort mewah yang dikembangkan oleh Las Vegas Sands, Marina Bay Sands. Konsep
+dari tempat ini hampir mirip dengan Las Vegas, dimana Marina Bay Sands akan menjadi pusat hiburan lengkap yang akan
+membuat para pengunjung betah berlama-lama di tempat ini. Resort yang dimaksud mencakup bangunan megah dengan tiga gedung
+yang menjulang tinggi. Di atas tiga gedung tersebut terbentang kolam renang yang bisa dibilang hampir tidak ada batasnya!
+Kolam renang ini merupakan kolam renang gantung terpanjang didunia, dengan panjang sekitar 150 meter. Selain kolam renang
+“diatas awan”, tempat wisata di Marina Bay Singapore yang jangan sampai Anda lewatkan adalah The Shoppes. Tempat ini
+adalah sebuah pusat perbelanjaan yang unik dimana terdapat sampan rides at Marina Bay Sands Singapore. Sungai buatan yang
+dibangun di dalam mall menyerupai sungai yang ada di Venice. Anda bisa berkeliling menggunakan sampan layaknya sedang
+berkeliling di kota Venice Italia."
+                    android:textAlignment="textStart"/>
+
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@mipmap/shanghai"
+                    android:foregroundGravity="center"/>
+
+                <TextView
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="20dp"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3. Esplanade"/>
+
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Esplanade atau Theatres on the Bay terletak di seberang Merlion Park. Esplanade yang kadang disebut sebagai Gedung Durian
+ini merupakan tempat wisata pusat seni dan pertunjukan di Singapura. Tetapi, Esplanade tidak hanya menyediakan pusat seni
+dan pertunjukan saja melainkan juga memiliki sejumlah pertokoan dan ruang terbuka. Biasanya ruang terbuka tersebut
+digunakan untuk menggelar pertunjukan gratis."
+                    android:textAlignment="textStart"/>
+
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@mipmap/shanghai"
+                    android:foregroundGravity="center"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+    <Button
+        android:layout_alignParentBottom="true"
+        android:layout_width="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:text="MAPS"/>
+
+
+
+</RelativeLayout>

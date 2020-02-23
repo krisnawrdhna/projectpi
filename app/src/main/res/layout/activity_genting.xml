@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".genting">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/img_genting"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/fgenting"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/desc_genting"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_below="@id/img_genting"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Genting adalah sebuah tempat wisata yang cukup terkenal di Malaysia. Sesuai dengan namanya yaitu Genting Highland yang
+jika diartikan menjadi Tanah Tinggi Genting, lokasi ini memang berada di ketinggian, tepatnya puncak gunung dari daerah
+pegunungan Titiwangsa. Kurang lebih 2.000 meter di atas permukaan air laut. Letak tepatnya ada di perbatasan antara
+Selangor dengan Pahang. Berikut ini ada tempat wisata menarik yang bisa dikunjungi ketika anda mengunjungi Genting
+Malaysia:"
+                android:textAlignment="textStart"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_below="@id/desc_genting">
+
+            <TextView
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. First World Plaza"
+                android:textAlignment="textStart"/>
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ini adalah plaza berkelas dunia dan letaknya jadi satu dengan bekas hotel paling besar di kawasan Asia yang mempunyai
+6118 kamar, toko, bioskop, restoran, ritel, sampai dengan wahana untuk simulator terjun bebas di dalam ruang. Saat malam
+hari tempat ini semakin indah dengan hiasan lampu yang beraneka warna. Tidak hanya itu saja tempat wisata ini juga
+dipenuhi dengan banyak patung kartun, lampu neon bernaeka warna dan berbagai macam replika dari kancah internasional yang
+sudah menjadi ciri khas mereka, misalnya saja seperti Patung Liberty yang ada di AMerika, Menara Eiffel yang ada di
+Perancis dan Petronas Twin Towers yang tersebar secara acak di seluruh kawasan mall yang ada disini. First World Plaza
+menawarkan berbagai macam kegiantan indoor, dimana kegiatan ini bisa dilakukan di dalam ruangan. Kegiantan indoor yang
+dilakukan disini bertujuan untuk sarana rekreasi dan menyenangkan pengunjung. Contoh kegiata indoor yang bisa dilakukan
+pengunjung adalah Genting cyberworld yang menawarkan game online selama 24 jam penuh. Permainan yang bisa dicoba adalah
+permainan Bowling, permainan ekspedisi dan lain sebagainya."
+                android:textAlignment="textStart"/>
+
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@mipmap/shanghai"
+                    android:foregroundGravity="center"/>
+
+                <TextView
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="20dp"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2. Casino de Genting"
+                    android:textAlignment="textStart"/>
+
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kasino yang dinobatkan sebagai kasino terbaik di kawasan Asia ini adalah satu-satunya tempat kasino resmi yang ada di
+Malaysia. Terletak pada ketinggian 1.800 meter di atas permukaan air laut. Permainan kasino ini telah didirikan selama
+bertahun tahun lamanya. Saat awal pendiriaan Kasino ini mendatangkan ahli Kasino dari Korea Selatan bernama Warker Hill
+Casino. Saat itu hanya ada satu kasino saja yang ada di Genting, namun seiring dengan berkembangnya waktu ada beberapa
+kasino yang ada di Genting ini.  Bahkan kasino yang didirikan di Genting kini dilengkapi denagn hotel dan katering. Semua
+fasilitas itu disediakan untuk mencukupi kebutuhan tamu yang ada di tempat kasino tersebut. Ada banyak tipe permainan
+kasino yang disediakan untuk para tamu. Besarnya jumlah taruhan tersebar di seluruh spektrum liar. Untuk bisa bermain
+kasino disini anda bisa mencoba bergabung sebagai anggota yang bebas. Anggota bebas bisa mengumpulkan poin dari tabel
+permainan yang dimainkannya atau dari outlet lainnya."
+                    android:textAlignment="textStart"/>
+
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@mipmap/shanghai"
+                    android:foregroundGravity="center"/>
+
+                <TextView
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="20dp"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3. Cable Car dan Skyway"
+                    android:textAlignment="textStart"/>
+
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Genting Sky Way adalah kereta gantung cukup terkenal untuk menikmati panorama indah dari atas bukit. Sementara untuk
+Genting Highland Cable Car adalah yang terpanjang dan tercepat di Asia Tenggara. Udara yang sejuk cenderung dingin akan
+menyambut saat sampai lokasi. Fasilitas yang dapat dinikmati antara lain 5 hotel berbintang dan gedung pertunjukan,
+lapangan golf, sampai dengan kasino yang resmi. Jika anda ingin berwisata ke Genting Highland. Jika anda ingin pergi ke
+Genting Highland jangan pernah menggunakan taksi atau kendaraan pribadi. Hal itu dikarenakan jika anda menggunakan
+kendaraan pribadi anda tidak akan pernah merasakan bagaimana asyiknya naik Cable car dan skyway yang ada di Genting ini.
+Selain mendapatkan pengalaman yang baru, naik Cable Car dan Skyway tersebut bisa membuat anda tahu bagaimana pemandangan
+Genting jika dilihat dari atas. Menurut sejarah yang ada di Genting, Genting Cable Car dan Skyway tersebut dibuka pada
+tahun 1997. Obyek wisata transportasi ini dinobatkan sebagai gondola terpanjang dan juga tercepat yang ada di Asia
+Tenggara. Panjangnya bisa mencapai 3,38 km dan bisa sampai ke Puncak Genting Highland."
+                    android:textAlignment="textStart"/>
+
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@mipmap/shanghai"
+                    android:foregroundGravity="center"/>
+
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+
+    <Button
+        android:layout_alignParentBottom="true"
+        android:layout_width="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:text="MAPS"/>
+
+
+
+</RelativeLayout>

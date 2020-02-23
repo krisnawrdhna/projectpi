@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".seoul">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:id="@+id/img_seoul"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/fseoul"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/desc_seoul"
+                android:layout_margin="20dp"
+                android:layout_below="@id/img_seoul"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jika berada di Seoul, jangan lupa menyambangi aliran sungai yang dulunya kotor dan kumuh, kini sudah dipercantik hingga menjadi salah satu tempat berkumpul
+warga saat sore menjelang malam. Apalagi kalau bukan Cheonggyecheon Stream. Ingin menelusuri aliran sungai sepanjang 5,8 Km ini sendiri atau dengan pemandu,
+tinggal pilih. Negeri ginseng ini memiliki banyak tempat spa dan pemandian air panas untuk relaksasi. Beberapa diantaranya Baran Spa, Jinan Red Ginseng Spa,
+Metro Spa Cabin, dan JJ Mud Spa. Jika datang bersama keluarga, bisa ajak anak-anak untuk bermain air di Yeosu The Ocean Resort Water Park. Jika ingin yang lebih
+alami, bisa menyambangi Pantai Haeundae di kota Busan yang tak terlalu ramai."
+                android:textAlignment="textStart" />
+
+            <ImageView
+                android:layout_below="@id/desc_seoul"
+                android:id="@+id/img_seoul_2"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@mipmap/shanghai"
+                android:foregroundGravity="center"/>
+
+            <TextView
+                android:layout_margin="20dp"
+                android:layout_below="@id/img_seoul_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jika malas berbasah-basahan, ajak saja anak-anak menjajal berbagai wahana permainan di Kumho Familyland yang terletak di Gwangju, atau Ulsan Grand Park
+di kota Ulsa. Anda bisa juga bersantai jalan-jalan sore di taman berkonsep eco, Lohas Garden dan Wacapua di Propinsi Gangwon-do.
+\n\n
+Bagi pecinta drama Korea, Anda bisa mengunjungi lokasi-lokasi yang digunakan dalam film maupun serial populer. Meningkatnya popularitas drama korea tak
+ayal ikut menarik wisatawan ke lokasi-lokasi tersebut. Misalnya Palbong Bakery yang muncul dalam film Bread, Love, and Dreams, Danyang Ondal Film Set yang
+muncul di beberapa drama propuler seperti Kingdom of the Wind, Taewangsasingi, dan Yeongaesomun. Tempat-tempat yang digunakan sebagai lokaso syuting serial
+drama Daejangeum dan Full House juga tak kalah populer.\n\n\n"
+                android:textAlignment="textStart" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+    <Button
+        android:layout_alignParentBottom="true"
+        android:layout_width="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:text="MAPS"/>
+
+
+
+</RelativeLayout>

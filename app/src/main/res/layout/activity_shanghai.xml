@@ -1,0 +1,143 @@
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".shanghai">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:id="@+id/img_shanghai"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/fshanghai"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/desc_shanghai"
+                android:layout_margin="20dp"
+                android:layout_below="@id/img_shanghai"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tempat wisata terkenal dan terbaik di Shanghai menjadi daya tarik tersendiri bagi wisatawan yang ingin liburan ke negara China (Tiongkok).
+Shanghai merupakan salah satu kota metropolitan dan kota terbesar yang sekarang menjadi pusat ekonomi, perdagangan, finansial, serta komunikasi di China.
+Banyak sekali destinasi wisata favorit di Shanghai mulai dari taman hiburan, tempat historis, tempat belanja, dan tempat wisata lainnya."
+                android:textAlignment="textStart" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_below="@id/desc_shanghai">
+
+            <ImageView
+                android:layout_below="@id/desc_shanghai"
+                android:id="@+id/img_shanghai_2"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@mipmap/shanghai"
+                android:foregroundGravity="center"/>
+            <TextView
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. The Bund"
+                android:textAlignment="textStart" />
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="The Bund merupakan suatu kawasan perairan atau dermaga yang sangat terkenal di Shanghai.Baik wisatawan lokal maupun mancanegara sering meramaikan tempat ini karena pemandangan indahnya.Para pengunjung bisa menikmati suasana The Bund saat siang maupun malam hari. Akan tetapi, jika Anda ingin menikmati kilauan dari lampu-lampu indah yang
+dipancarkan gedung-gedung tinggi maka pilihlah saat malam hari. Selain itu, para wisatawan tentunya bisa mengabadikan momen liburan dengan berfoto dengan latar
+belakang pemandangan bangunan yang megah."
+                    android:textAlignment="textStart" />
+
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@id/desc_shanghai"
+                    android:id="@+id/img_shanghai_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@mipmap/shanghai"
+                    android:foregroundGravity="center"/>
+
+                <TextView
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="20dp"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2. Yu Garden"
+                    android:textAlignment="textStart" />
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bagi Anda yang ingin melihat warisan budaya masa lampau di pusat kota Shanghai dapat mengunjungi Yu Garden.
+Yu Garden merupakan kompleks tua dan taman bersejarah yang terawat dengan luas sekitar 20.000 meter persegi.\nTempat wisata bersejarah ini selalu ramai dikunjungi turis terutama saat musim liburan. Taman ini mempunyai gaya arsitektur yang sangat menakjubkan serta banyak
+pohon dan bunga-bunga yang indah.Selain itu, Anda bisa menikmati aneka masakan pinggir jalan (street food) yang lezat dan juga jangan lupa untuk membeli sovenir
+dari tempat ini. Saat malam hari pemandangan Yu Garden menjadi lebih indah dengan gemerlap lampu yang menawan."
+                    android:textAlignment="textStart" />
+
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@id/desc_shanghai"
+                    android:id="@+id/img_shanghai_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@mipmap/shanghai"
+                    android:foregroundGravity="center"/>
+
+                <TextView
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="20dp"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3. Oriental Pearl TV Tower"
+                    android:textAlignment="textStart" />
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bagi Anda yang ingin menikmati pemandangan kota Shanghai dari ketinggian maka dapat memilih Oriental Pearl TV Tower sebagai tempat rekreasi. Menara ini mempunyai
+ketinggian 468 meter dan menjadi salah satu monumen ikonik yang wajib untuk Anda kunjungi. Para pengunjung bisa berkunjung saat malam hari maupun siang hari
+untuk mengamati pemandangan dari deck. Kemudian para wisatawan bisa belajar dan mengetahui tentang sejarah perkembangan Shanghai di Shanghai City Historical
+Development Exhibition Hall. Selain itu, Anda juga menikmati hidangan makan malam khas China yang berada di dalam menara ini.\n\n\n"
+                    android:textAlignment="textStart" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+    <Button
+        android:layout_alignParentBottom="true"
+        android:layout_width="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:text="MAPS"/>
+
+
+
+</RelativeLayout>

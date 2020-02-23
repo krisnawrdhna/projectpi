@@ -1,0 +1,139 @@
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".beijing">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:id="@+id/img_beijing"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/fbeijing"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/desc_shanghai"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_below="@id/img_beijing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tempat wisata terkenal dan terbaik di Beijing menjadi daya tarik tersendiri bagi turis yang ingin liburan ke China.
+Beijing merupakan ibu kota dari Republik Rakyat Tiongkok (China) dengan populasi terpadat di dunia. Pada tahun 2013 kota ini terdapat populasi sebanyak
+21.150.000 jiwa. Kota Beijing ini merupakan pusat dari politik, ekonomi, dan budaya sehingga tidak heran banyak sekali destinasi wisata di wilayah ini.
+Berbagai objek wisata favorit ada di Beijing meliputi tempat bersejarah, tempat belanja, taman, dan tempat wisata populer lainnya. Berikut ini merupakan
+daftar 25 tempat wisata terkenal di Beijing yang wajib untuk Anda kunjungi saat liburan bersama teman-teman maupun keluarga."
+                android:textAlignment="textStart" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_below="@id/desc_shanghai">
+
+
+                <TextView
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="20dp"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1. Tembok Besar China"
+                    android:textAlignment="textStart" />
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Belum sah jika saat Anda liburan ke Beijing tidak berkunjung ke Tembok Besar China (The Great Wall China). Menjadi salah satu dari dari tujuh keajaiban
+dunia dan situs warisan dunia oleh UNESCO, maka tidak heran tempat wisata ini menjadi sangat populer. Setiap tahun, Tembok Besar China dikunjungi lebih
+dari 10 milyar wisatawan."
+                    android:textAlignment="textStart" />
+
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/img_shanghai_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@mipmap/shanghai"
+                    android:foregroundGravity="center"/>
+                <TextView
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="20dp"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2. The Palace Museum (Istana Terlarang)"
+                    android:textAlignment="textStart" />
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Palace Museum merupakan istana kerajaan selama periode Dinasti Ming dan Dinasti Qing, berada di tengah-tengah kota kuno Beijing. Museum ini tentunya menunjukan
+begitu berharganya benda sejarah China. Istana ini terdiri dari aula dan halaman yang terpisah. Kemudian bagian bangunan luar istana menjadi museum pada tahun
+1914. Lalu, ada bangunan Hall of Supreme Harmony yang merupakan bangunan kayu terbesar di China."
+                    android:textAlignment="textStart" />
+
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@id/desc_shanghai"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@mipmap/shanghai"
+                    android:foregroundGravity="center"/>
+                <TextView
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="20dp"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3. Yihe Yuan (Summer Palace)"
+                    android:textAlignment="textStart" />
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Yihe Yuan atau sering dikenal dengan Istana Musim Panas pertama kali dibangun pada masa Dinasti Jin. Summer Palace merupakan kombinasi dari istana, danau, taman
+yang sangat indah dengan luas mencapai 297 hektar. Istana ini berada 15 km dari pusat kota Beijing dan telah ada sejak tahun 1750. Dikenal dengan pemandangan
+alam dan sejarah budaya dari China, tak heran tempat wisata ini ditetapkan oleh UNESCO sebagai situs warisan dunia. Untuk datang keliling istana dan menikmati
+pemandangan kawasan ini melalui danau, tentunya \nAnda harus menyewa perahu. Selain itu, sambil menikmati keindahan dan menikmati musik, para wisatawan bisa membeli
+berbagai sovenir, makanan, dan es krim.
+\n\n\n"
+                    android:textAlignment="textStart" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+    <Button
+        android:layout_alignParentBottom="true"
+        android:layout_width="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:text="MAPS"/>
+
+
+
+</RelativeLayout>

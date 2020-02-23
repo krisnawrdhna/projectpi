@@ -1,0 +1,141 @@
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".jeju">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:id="@+id/img_jeju"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/fjejuisland"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/desc_shanghai"
+                android:layout_margin="20dp"
+                android:layout_below="@id/img_jeju"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pulau Jeju adalah satu-satunya destinasi BEBAS VISA untuk orang Indonesia di Korea! Kamu bisa mendapatkan bebas visa kalau kamu terbang langsung ke Jeju dari
+luar negeri dan tidak melalui daratan utama Korea Selatan (Seoul). Untuk terbang secara langsung ke Jeju, kamu bisa melalui Bangkok dan naik pesawat bujet Korea,
+Eastar Jet, atau melalui Hongkong dan naik Cathay Pacific."
+                android:textAlignment="textStart" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_below="@id/desc_shanghai">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@mipmap/shanghai"
+                    android:foregroundGravity="center"/>
+                <TextView
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="20dp"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1. Gunung Hallasan"
+                    android:textAlignment="textStart" />
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kalau kamu suka mendaki gunung, coba daki gunung tertinggi di Korea, Gunung Hallasan! Berada di tengah-tengah Pulau Jeju, gunung ini berada di daftar Situs
+Warisan Dunia Alami UNESCO. Meskipun merupakan gunung tertinggi di Korea, pendakian ke puncaknya cukup mudah dan kebanyakan orang bisa menyelesaikan pendakian
+dalam sehari. Sudah tidak perlu dibilang lagi deh, pemandangan dari puncaknya pasti luar biasa!\n
+Untuk kamu yang tidak ingin mendaki hingga puncak, kamu juga bisa memilih salah satu dari tujuh jalur berpemandangan indah yang kurang dari 10 kilometer untuk
+menyaksikan kemegahan Gunung Hallasan. Ada kurang lebih 6000 spesies flora dan fauna yang bisa kamu lihat di gunung ini jadi ini pastinya tempat wajib kunjung
+di Jeju untuk pecinta alam!."
+                    android:textAlignment="textStart" />
+
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/img_shanghai_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@mipmap/shanghai"
+                    android:foregroundGravity="center"/>
+                <TextView
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="20dp"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2. Teddy Bear Museum"
+                    android:textAlignment="textStart" />
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Untuk pecinta boneka beruang, kamu pasti akan menggila kalau kesini! Museum ikonik Jeju ini menampilkan ribuan boneka beruang dari seluruh dunia. Beberapa dari
+boneka ini bahkan dibuat dari tangan lo. Boneka-boneka beruang di museum didandani ala orang atau ikon terkenal seperti Mona Lisa.
+Kalau kamu ingin mendapatkan angin segar, jalan-jalan saja di taman museum bersama teddy bear raksasa yang sedang mengadakan tea party. Tentunya dengan kelucuan
+boneka-boneka beruang, museum ini adalah tempat wajib kunjung di Jeju untuk keluarga!"
+                    android:textAlignment="textStart" />
+
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@id/desc_shanghai"
+                    android:id="@+id/img_shanghai_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@mipmap/shanghai"
+                    android:foregroundGravity="center"/>
+                <TextView
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="20dp"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3. Loveland"
+                    android:textAlignment="textStart" />
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Nah yang satu ini hanya untuk Mama Papa ya anak-anak. Loveland, yang hanya terbuka untuk orang di atas umur 18 tahun, seperti yang sudah kamu tebak merupakan
+taman yang bertema erotisme. 140 patung pria dan wanita dalam berbagai posisi bisa kamu temukan di taman ini. Kalau kamu sedang dalam liburan bulan madu, taman
+ini tempat wajib kunjung di Jeju deh. Untuk yang datang bersama anak-anak, kamu juga bisa menitipkan anak-anakmu di tempat bermain anak-anak yang tersedia\n\n\n"
+                    android:textAlignment="textStart" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+
+    <Button
+        android:layout_alignParentBottom="true"
+        android:layout_width="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:text="MAPS"/>
+
+
+
+</RelativeLayout>

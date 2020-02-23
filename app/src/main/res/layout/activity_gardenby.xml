@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tujuan.gardenby">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:id="@+id/img_gardenby"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/fgardenbythebay"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/desc_gardenby"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/img_gardenby"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Siapa yang tak tahu Gardens by the Bay? Gardens by the Bay adalah sebuah taman yang pertama dibuka pada tahun 2012 silam
+dengan luas area sekitar 101 hektar. Area ini dibagi menjadi tiga bagian. Bay South Garden adalah yang terluas dan
+merupakan area utama. Yang terluas kedua, Bay East Garden, adalah area hijau tepi laut yang terbuka untuk umum. Sementara
+Bay Central Garden sedang dikembangkan menjadi penghubung antara kedua area lainnya. Gardens by the Bay terdiri dari
+beberapa area gratis maupun berbayar. Berikut beberapa atraksi Gardens by the Bay dan aktivitas yang bisa Anda lakukan di
+sana:
+"
+                android:textAlignment="center"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_below="@id/desc_gardenby">
+
+                <TextView
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="20dp"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1. Super Tree Groove"/>
+
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Supertree Grove merupakan salah satu ikon landmark Gardens by the Bay. Bangunan berstruktur mirip pohon ini menjulang
+tinggi sekitar 25 hingga 50 meter. Pada siang hari, Supertrees memberi keteduhan dengan kanopi besar yang dimilikinya.
+Sedangkan saat malam hari, pohon-pohon tersebut tampak menakjubkan karena dihiasi dengan lampu berwarna-warni dengan
+pertunjukan cahaya dan alunan musik dalam gelap. Itu adalah Garden Rhapsody, yang diadakan setiap malam setiap jam 19.45
+dan 20.45, dan gratis!
+"
+                    android:textAlignment="textStart"/>
+
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@mipmap/shanghai"
+                    android:foregroundGravity="center"/>
+
+                <TextView
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="20dp"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2. Flower Dome"/>
+
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Flower Dome adalah salah satu dari dua ruang konservatori Gardens by the Bay.Ruangan ini merupakan rumah kaca tanpa kolom
+terbesar di dunia. flower Dome dibangun dengan 3.332 panel kaca dengan 42 variasi bentuk dan ukuran, sehingga tampak
+seperti puzzle raksasa. Bagian dalam rumah kaca ini dibagi menjadi 9 bagian: Australian Garden, South African Garden, South
+American Garden, Flower Field, Mediterranean Garden, Californian Garden, Olive Grove, Succulent Garden, dan The Baobabs.
+"
+                    android:textAlignment="textStart"/>
+
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@mipmap/shanghai"
+                    android:foregroundGravity="center"/>
+
+                <TextView
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="20dp"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3. OCBC Skyway"/>
+
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Jika belum puas berkeliling dan melihat-lihat Supertree Grove dari bawah, Anda bisa naik ke atas. Ada jalur OCBC Skyway
+sepanjang 128 meter yang menghubungkan satu Supertree dengan Supertree yang lain. OCBC Skyway ini berada di ketinggian
+22 meter di atas permukaan tanah, sehingga cocok untuk melihat-lihat pemandangan sekitar."
+                    android:textAlignment="textStart"/>
+
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@mipmap/shanghai"
+                    android:foregroundGravity="center"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+    <Button
+        android:layout_alignParentBottom="true"
+        android:layout_width="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:text="MAPS"/>
+
+
+
+</RelativeLayout>

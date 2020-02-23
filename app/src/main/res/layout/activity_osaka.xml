@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".osaka">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:id="@+id/img_osaka"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/fosaka"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/desc_osaka"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/img_osaka"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Osaka merupakan salah satu destinasi wisata populer di Jepang. Sebagai kota pelabuhan yang besar dan pusat kawasan
+komersil di tengah Pulau Honshu, wisata Osaka terkenal akan arsitektur modern, berbagai makanan jajanan kaki lima bercita
+rasa menarik, hingga hiburan malam yang populer. Tidak heran saat berwisata ke Jepang, Kota Osaka kerap jadi pilihan
+destinasi wisata wajib. Berikut beberapa rekomendasi tempat wisata di Osaka:
+"
+                android:textAlignment="textStart"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_below="@id/desc_osaka">
+
+            <TextView
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Dotonbori"/>
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ikon wisata kota Osaka yang wajib dikunjungi adalah kawasan Dotonbori. Sudut kota Osaka satu ini memang nggak pernah sepi
+pengunjung. Dengan pemandangan perkotaan yang khas dengan spanduk dan neonbox, Dotonbori menjadi spot instagramble wajib
+paling populer di Osaka. Objek wisata di Osaka ini juga menawarkan pengalaman berbelanja dan wisata kuliner khas Jepang
+yang lezat, lho. Berbagai menu seperti Takoyaki, Okonomiyaki, serta Ramen bisa Toppers buru dan dinikmati disini sembari
+memandang indahnya sungai Dotonbori-Gawa. Malam adalah waktu paling tempat mampir ke objek wisata Osaka ini karena pada
+waktu malam Dotonbori akan bermandikan cahaya lampu neon yang indah."
+                android:textAlignment="textStart"/>
+
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@mipmap/shanghai"
+                android:foregroundGravity="center"/>
+
+                <TextView
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="20dp"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2. Kastil Osaka"/>
+
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kastil Osaka merupakan ikon pariwisata kota Osaka sekaligus salah satu objek wisata di Osaka yang paling ramai dikunjungi.
+Dibangun sejak 1583 atas perintah politisi sekaligus pejuang Toyotomi Hideyoshi dengan model mengadaptai bentuk Kastil
+Azuchi, kastil mewah ini selesai dibangun dalam tiga tahun masa pembangunan yaitu pada 1583. Kastil ini sempat diruntuhkan
+setelah kekalahan Hideyoshi pada 1615 dan dibangun kembali oleh Shogun Tokugawa dan lagi-lagi kekalahan Shogun membuat
+kastil ini kembali diruntuhkan dan dibangun ulang hingga menjadi Kastil megah seperti saat ini pada 1931. Sebagai atraksi
+wisata di Osaka, bangunan dengan arsitektur menakjubkan ini juga menawarkan museum yang memamerkan sejarah panjang dari
+Kastil ini dan juga kota Osaka. Di sekitar taman kastil ini juga terdapat objek wisata lainnya yaitu kuil Hokoku yang
+didedikasikan untuk Hideyoshi dan keluarganya."
+                    android:textAlignment="textStart"/>
+
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@mipmap/shanghai"
+                    android:foregroundGravity="center"/>
+
+                <TextView
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="20dp"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3. The Tempozan Ferris Wheel dan Harbor Village"/>
+
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Belum puas menikmati pemandangan indah Kota Osaka? Salah satu spot wisata di Osaka selanjutnya ini adalah Tempozan Harbor
+Village. Tempozan Harbor Village merupakan daerah tepi laut di Kota Osaka yang dilengkapi dengan bianglala raksasa dan
+termasuk salah satu yang terbesar di Asia. Dengan ketinggian tak kurang dari 112 meter dan diameter hingga 100 meter,
+Ferris Wheel yang telah beroperasi sejak 1997 ini menawarkan pemandangan kota Osaka dengan pengalaman berbeda selama 17
+menit di atas udara."
+                    android:textAlignment="textStart"/>
+
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@mipmap/shanghai"
+                    android:foregroundGravity="center"/>
+
+        </LinearLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+    <Button
+        android:layout_alignParentBottom="true"
+        android:layout_width="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:text="MAPS"/>
+
+
+
+</RelativeLayout>
